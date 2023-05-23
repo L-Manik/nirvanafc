@@ -16,10 +16,14 @@
 		margin: 0;
 		padding: 0;
 		font-family: 'Open Sans';
+		color: #e3e5f2
 	}
 	:global(html, body) {
 		width: 100%;
 		height: 100%;
-		background: #fffde7;
+		background: #101223;
+	}
+	:global(a) {
+		text-decoration: none;
 	}
 </style>

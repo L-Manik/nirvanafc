@@ -2,16 +2,7 @@
 	import Strawberry from '$lib/assets/strawberry.jpeg';
 </script>
 
-<h1>Welcome to SecondRoute</h1>
-
-<!--Image from link-->
-<img
-	src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg/800px-Garden_strawberry_%28Fragaria_%C3%97_ananassa%29_single2.jpg"
-	alt="Strawberry"
-/>
-
-<!--Image from assets-->
-<img src={Strawberry} alt="Strawberry" />
+<h1>Welcome to d</h1>
 
 <a href="/">Go to main page</a>
 

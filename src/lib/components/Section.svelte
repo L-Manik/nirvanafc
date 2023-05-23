@@ -7,7 +7,8 @@
 </script>
 
 <div class="container">
-	<div class="section-title">
+	<div 
+	class="section-title">
 		<Icon data={iconData} />
 		{title}
 	</div>
@@ -19,8 +20,8 @@
 		display: flex;
 		align-items: center;
 		gap: 16px;
-		background-color: #ffeb3b;
-		border-left: 4px solid #fbc02d;
+		background-color: #135de7;
+		border-left: 4px solid #053ca3;
 		color: black;
 		padding: 8px 16px;
 		text-transform: UPPERCASE;
@@ -30,5 +31,7 @@
 		display: flex;
 		flex-direction: column;
 		gap: 16px;
+		border: 2px solid #053ca3;
+		padding: 16px
 	}
 </style>
