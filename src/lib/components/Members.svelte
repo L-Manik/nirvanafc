@@ -28,9 +28,10 @@
 		font-weight: 500;
 	}
 	.container {
-		border-radius: 25px;
+		border-radius: 15px;
 		display: flex;
 		flex-direction: column;
+		flex:1;
 		gap: 16px;
 		padding: 16px;
 		box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
@@ -40,6 +41,8 @@
 		border-left: 1px solid rgba(24, 148, 243, 0.377);
 		backdrop-filter: blur(5px);
 		transition: 0.5s;
+		display: block;
+
 	}
 
 	.container:hover {
