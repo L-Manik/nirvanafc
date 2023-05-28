@@ -20,9 +20,11 @@
 	</div>
 
 	<div class="content">
-			<Section iconData={user} title="Members">
+		<Section iconData={user} title="Members">
+			<a href="/membersRoute">
 				<p>Learn more about the members of the band.</p>
-			</Section>
+			</a>
+		</Section>
 		<Section iconData={book} title="Brief History">
 			<ul>
 				<li>
@@ -77,8 +79,7 @@
 	.readable-area {
 		display: flex;
 		flex-direction: column;
-		background-color: #030302;
-		margin: 0 5%;
+		backdrop-filter: blur(5px);
 		height: 100%;
 	}
 

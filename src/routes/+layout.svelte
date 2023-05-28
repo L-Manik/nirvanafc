@@ -21,7 +21,7 @@
 	:global(html, body) {
 		width: 100%;
 		height: 100%;
-		background: #101223;
+		background: linear-gradient(45deg, #101223, #09104d);
 	}
 	:global(a) {
 		text-decoration: none;
