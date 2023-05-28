@@ -21,7 +21,7 @@
 
 	<div class="content">
 		<Section iconData={user} title="Members">
-			<a href="/membersRoute">
+			<a href="/mainRoute/membersRoute">
 				<p>Learn more about the members of the band.</p>
 			</a>
 		</Section>
