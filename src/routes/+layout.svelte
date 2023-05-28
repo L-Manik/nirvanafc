@@ -26,4 +26,11 @@
 	:global(a) {
 		text-decoration: none;
 	}
+
+	@font-face {
+    font-family: 'Nirvana';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Nirvana'), url('fonts/NIRVANA.TTF') format('TTF');
+    }
 </style>

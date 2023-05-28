@@ -26,7 +26,6 @@
 		padding: 8px 16px;
 		text-transform: UPPERCASE;
 		font-weight: 500;
-		font: "Nirvana";
 	}
 	.container {
 		border-radius: 25px;
@@ -43,12 +42,6 @@
 		transition: 0.5s;
 	}
 
-    @font-face {
-    font-family: 'Nirvana';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Nirvana'), url('NIRVANA.woff') format('woff');
-    }
 	.container:hover {
 		transform:scale(1.1);
 	}
